@@ -1,0 +1,270 @@
+/* nav ul li.active{.chart-title {
+    text-align: center;
+    margin-bottom: 10px;
+}
+td {
+    border: 1px solid rgb(113, 111, 111);
+    padding: 15px;
+}
+    border-left: 3px solid #27316e;
+    background: linear-gradient(to right, #0016362c, #20283ec7);
+} */
+.main{
+    background-color:#f9f7f7;
+}
+.navbar{
+    background-color: #f8eeee;
+}
+.username{
+    color: #27316e;
+}
+#bg-sews
+{
+    background-color: #27316e;
+}
+#text-sews
+{
+    color: #27316e;
+}
+.chart-container {
+    float: left;
+    width: 50%; /* Chaque conteneur occupe 50% de la largeur parente */
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+/*  */
+/* ---------------------- */
+/* .box{
+    /* position: relative; */
+    /* outline: none;
+    overflow: hidden; */
+    /* width: auto;
+    height: 200px;
+    cursor: pointer;
+    background-color: #27316e;
+  
+    border: solid 10px;
+    border-radius: 10px 40px 40px 10px; */
+   
+
+    .box {
+        width: 190px;
+        height: 200px;
+        background: #646da7;
+        padding: 1rem;
+        border-radius: 1rem;
+        border: .6vmin solid #27316e;
+        box-shadow: .4rem .4rem #646da7;
+        overflow: hidden;
+      }
+      
+      .box .category_name {
+        color: #030720;
+        font-size: 1rem;
+        font-weight: 900;
+        font-style: normal;
+        text-decoration: none; /* Remove underline */
+      }
+      
+    
+     
+      .box .desc{
+        position: absolute; 
+        top: 100%;
+        left: 2px;
+        text-align: center;
+        margin: 0;
+        transition: .5s ease;
+        /* color: #ab1414; */
+        color: white;
+        font-style: normal;
+        font-size:large;
+        text-decoration: none;
+    }
+    .box:hover .desc{
+        top: 5%;} 
+
+
+        .score-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+        .score-title {
+            font-size: 36px;
+            font-weight: bold;
+            color: #27316e;
+        }
+        
+        .score-description {
+            font-size: 18px;
+            color: #646da7;
+            margin-top: 10px;
+        }
+
+ 
+
+/* ---------------------------------- */
+.radioOrCheckbox{
+    border: none;
+    outline: none;
+}
+.radioOrCheckbox:checked{
+    background-color: #00c271;
+}
+
+/* Set the color of the label text when the radio button is checked */
+.radioOrCheckbox:checked + label {
+    color: #00c271;
+    font-weight: bold;
+}
+.inpOption{
+    transition: .5s ease;
+    cursor: pointer;
+    background-color: #dbdbdb;
+}
+
+.inpOption:hover{
+    background-color: #27316e;
+    color: #fff;
+}
+/* ------------------------ */
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 1085px;
+    /* left: 0; */
+}
+/* ------------------------------- */
+.timer_span{
+    background-color: #d0ffec;
+    color: #000;
+    opacity: 0.8;
+    padding: 8px 12px;
+    border-radius: 18px;
+}
+
+/* .butt{
+    color:white;
+
+
+}
+
+.butt:hover {
+    background-color: #27316e;
+    color: white;
+  } */
+.btnn {
+    cursor: pointer;
+    border: 0;
+    border-radius: 8px;
+    font-weight: 600;
+    margin: 0 10px;
+    width: 100px;
+    height: 50px;
+    padding: 6px 0;
+    /* box-shadow: 0 0 10px  #27316e;
+    transition: 0.4s;
+     background-color: #27316e;  */
+   } 
+  .img-ronde {
+    border-radius: 9999px;
+    width: 2rem;
+    height: 2rem;}
+
+
+    .gg{
+        width: 300px; /* Définir une largeur maximale pour la barre de recherche */
+        margin: 0 auto; /* Centrer la barre de recherche horizontalement */
+        /* background-color: grey; */
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        padding: 1px 1px;
+    }
+    .btnn {
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 15px;
+        font-weight: bold;
+        text-align: center;
+        text-decoration: none;
+        /* color: #fff; */
+        background-color: #646da7;
+        border: 2px solid #27316e;
+        border-radius: 10px;
+        box-shadow: 5px 5px 0px #646da7;
+        transition: all 0.3s ease;
+        color: #030720;;
+      }
+      
+      /* .btnn:hover {
+        background-color: #fff;
+        color: #27316e;
+        border: 2px solid #27316e;
+        box-shadow: 5px 5px 0px #27316e;
+      }
+       */
+      /* .btnn:active {
+        background-color: #949dda;
+        box-shadow: none;
+        transform: translateY(4px);
+      } */
+.cardb{
+    padding: 1rem;
+  background-color: #fff;
+  /* box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); */
+  max-width: 320px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px #646da7,
+
+             0px 0px 0px rgb(60, 60, 60);
+}
+
+
+.cssbuttons-io-button {
+    display: flex;
+    align-items: center;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 17px;
+    padding: 0.8em 1.5em 0.8em 1.2em;
+    color: white;
+    background: #ad5389;
+    background: linear-gradient(0deg, rgba(77,54,208,1) 0%, rgba(132,116,254,1) 100%);
+    border: none;
+    box-shadow: 0 0.7em 1.5em -0.5em #4d36d0be;
+    letter-spacing: 0.05em;
+    border-radius: 20em;
+    width: 230px;
+    height: auto;
+  }
+  
+  .cssbuttons-io-button svg {
+    margin-right: 8px;
+  }
+  
+  .cssbuttons-io-button:hover {
+    box-shadow: 0 0.5em 1.5em -0.5em #4d36d0be;
+  }
+  
+  .cssbuttons-io-button:active {
+    box-shadow: 0 0.3em 1em -0.5em #4d36d0be;
+  }
+.nn{
+    color:#ab1414;
+    font-size: medium;
+    font-style: normal;
+    
+}
+.nn1{
+    color:#ab1414;
+    /* font-size: medium; */
+     font-style:normal;
+    
+}
+
+  
+
+
